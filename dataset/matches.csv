@@ -1,0 +1,127 @@
+match_id,date,phase,round,home_code,home_name,away_code,away_name,num_sets_recorded,n_scout_lines,n_decoded_actions
+cifi_talmassons-cbl_brescia,"0    14/02/2026
+Name: day, dtype: object",Coppa Italia - Final,,TAL,CDA Volley Talmassons FVG,CBL,C.B.L. Costa Volpino,5,1819,1330
+ciqf_brescia-melendugno_brescia,"0    17/12/2025
+Name: day, dtype: object",Coppa Italia - Quarterfinal,,BRE,Valsabbina Millenium Brescia,MEL,Narconon Volley Melendugno,5,1915,1476
+ciqf_talmassons-trento_brescia,"0    17/12/2025
+Name: day, dtype: object",Coppa Italia - Quarterfinal,,TAL,CDA Volley Talmassons FVG,TRE,ITAS Trentino,5,1294,958
+cisf_talmassons-padova_brescia,"0    14/01/2026
+Name: day, dtype: object",Coppa Italia - Semifinal,,TAL,CDA Volley Talmassons FVG,FRA,Nuvolě Altafratte Padova,5,1176,864
+pofi01_brescia-padova_brescia,"0    20/04/2026
+Name: day, dtype: object",Playoffs - Final,01,BRE,Valsabbina Millenium Brescia,FRA,Nuvolě Altafratte Padova,5,1596,1155
+pofi02_padova-brescia_brescia,"0    24/04/2026
+Name: day, dtype: object",Playoffs - Final,02,BRE,Valsabbina Millenium Brescia,FRA,Nuvolě Altafratte Padova,5,1802,1365
+pofi03_brescia-padova_brescia,"0    27/04/2026
+Name: day, dtype: object",Playoffs - Final,03,BRE,Valsabbina Millenium Brescia,FRA,Nuvolě Altafratte Padova,5,1265,940
+poqf01_trento-brescia_brescia,"0    29/03/2026
+Name: day, dtype: object",Playoffs - Quarterfinal,01,BRE,Valsabbina Millenium Brescia,TRE,ITAS Trentino,5,1257,955
+poqf02_brescia-trento_brescia,"0    01/04/2026
+Name: day, dtype: object",Playoffs - Quarterfinal,02,BRE,Valsabbina Millenium Brescia,TRE,ITAS Trentino,5,1986,1489
+posf01_brescia-cbl_brescia,"0    06/04/2026
+Name: day, dtype: object",Playoffs - Semifinal,01,BRE,Valsabbina Millenium Brescia,CBL,C.B.L. Costa Volpino,5,1930,1415
+posf02_cbl-brescia_brescia,"0    12/04/2026
+Name: day, dtype: object",Playoffs - Semifinal,02,BRE,Valsabbina Millenium Brescia,CBL,C.B.L. Costa Volpino,5,1236,911
+pp01_brescia-melendugno_brescia,"0    02/02/2026
+Name: day, dtype: object",Playoff Pool,01,BRE,Valsabbina Millenium Brescia,MEL,Narconon Volley Melendugno,5,1138,827
+pp01_talmassons-messina_brescia,"0    01/02/2026
+Name: day, dtype: object",Playoff Pool,01,TAL,CDA Volley Talmassons FVG,MES,Gruppo Formula 3 Messina,5,1149,858
+pp02_melendugno-talmassons_brescia,"0    09/02/2026
+Name: day, dtype: object",Playoff Pool,02,MEL,Narconon Volley Melendugno,TAL,CDA Volley Talmassons FVG,5,1769,1304
+pp02_trento-brescia_brescia,"0    08/02/2026
+Name: day, dtype: object",Playoff Pool,02,BRE,Valsabbina Millenium Brescia,TRE,ITAS Trentino,5,1961,1472
+pp03_cbl-talmassons_brescia,"0    25/02/2026
+Name: day, dtype: object",Playoff Pool,03,CBL,C.B.L. Costa Volpino,TAL,CDA Volley Talmassons FVG,5,1928,1435
+pp03_messina-brescia_brescia,"0    15/02/2026
+Name: day, dtype: object",Playoff Pool,03,BRE,Valsabbina Millenium Brescia,MES,Gruppo Formula 3 Messina,5,1497,1099
+pp04_brescia-roma_brescia,"0    18/02/2026
+Name: day, dtype: object",Playoff Pool,04,BRE,Valsabbina Millenium Brescia,ROM,SMI Roma Volley,5,1379,1089
+pp04_talmassons-trento_brescia,"0    18/02/2026
+Name: day, dtype: object",Playoff Pool,04,TAL,CDA Volley Talmassons FVG,TRE,ITAS Trentino,5,1652,1225
+pp05_brescia-cbl_brescia,"0    22/02/2026
+Name: day, dtype: object",Playoff Pool,05,BRE,Valsabbina Millenium Brescia,CBL,C.B.L. Costa Volpino,5,1295,994
+pp05_talmassons-roma_brescia,"0    22/02/2026
+Name: day, dtype: object",Playoff Pool,05,TAL,CDA Volley Talmassons FVG,ROM,SMI Roma Volley,5,1168,892
+pp06_melendugno-brescia_brescia,"0    01/03/2026
+Name: day, dtype: object",Playoff Pool,06,BRE,Valsabbina Millenium Brescia,MEL,Narconon Volley Melendugno,5,1938,1424
+pp06_messina-talmassons_brescia,"0    01/03/2026
+Name: day, dtype: object",Playoff Pool,06,MES,Gruppo Formula 3 Messina,TAL,CDA Volley Talmassons FVG,5,1657,1273
+pp07_brescia-trento_brescia,"0    04/03/2026
+Name: day, dtype: object",Playoff Pool,07,BRE,Valsabbina Millenium Brescia,TRE,ITAS Trentino,5,1725,1273
+pp07_talmassons-melendugno_brescia,"0    04/03/2026
+Name: day, dtype: object",Playoff Pool,07,TAL,CDA Volley Talmassons FVG,MEL,Narconon Volley Melendugno,5,1849,1362
+pp08_brescia-messina_brescia,"0    08/03/2026
+Name: day, dtype: object",Playoff Pool,08,BRE,Valsabbina Millenium Brescia,MES,Gruppo Formula 3 Messina,5,1132,821
+pp08_talmassons-cbl_brescia,"0    08/03/2026
+Name: day, dtype: object",Playoff Pool,08,TAL,CDA Volley Talmassons FVG,CBL,C.B.L. Costa Volpino,5,1188,879
+pp09_roma-brescia_brescia,"0    15/03/2026
+Name: day, dtype: object",Playoff Pool,09,BRE,Valsabbina Millenium Brescia,ROM,SMI Roma Volley,5,1901,1416
+pp09_trento-talmassons_brescia,"0    15/03/2026
+Name: day, dtype: object",Playoff Pool,09,TRE,ITAS Trentino,TAL,CDA Volley Talmassons FVG,5,1239,938
+pp10_cbl-brescia_brescia,"0    22/03/2026
+Name: day, dtype: object",Playoff Pool,10,BRE,Valsabbina Millenium Brescia,CBL,C.B.L. Costa Volpino,5,1207,875
+pp10_roma-talmassons_brescia,"0    22/03/2026
+Name: day, dtype: object",Playoff Pool,10,ROM,SMI Roma Volley,TAL,CDA Volley Talmassons FVG,5,1249,932
+rs01_brescia-fasano_brescia,"0    06/10/2025
+Name: day, dtype: object",Regular Season,01,BRE,Valsabbina Millenium Brescia,FAS,Olio Pantaleo Volley Fasano,5,1666,1261
+rs01_talmassons-modena_brescia,"0    05/10/2025
+Name: day, dtype: object",Regular Season,01,TAL,CDA Volley Talmassons FVG,MOE,Volley Modena,5,1028,761
+rs02_modena-brescia_brescia,"0    12/10/2025
+Name: day, dtype: object",Regular Season,02,BRE,Valsabbina Millenium Brescia,MOE,Volley Modena,5,985,685
+rs02_talmassons-altamura_brescia,"0    12/10/2025
+Name: day, dtype: object",Regular Season,02,TAL,CDA Volley Talmassons FVG,LEN,Panbiscò Leonessa Altamura,5,1021,720
+rs03_altino-brescia_brescia,"0    19/10/2025
+Name: day, dtype: object",Regular Season,03,BRE,Valsabbina Millenium Brescia,ALT,Tenaglia Abruzzo Altino Volley,5,1132,819
+rs03_offanengo-talmassons_brescia,"0    19/10/2025
+Name: day, dtype: object",Regular Season,03,OFF,Trasporti Bressan Offanengo,TAL,CDA Volley Talmassons FVG,5,1787,1321
+rs04_brescia-altamura_brescia,"0    26/10/2025
+Name: day, dtype: object",Regular Season,04,BRE,Valsabbina Millenium Brescia,LEN,Panbiscň Leonessa Altamura,5,1147,848
+rs04_talmassons-imola_brescia,"0    26/10/2025
+Name: day, dtype: object",Regular Season,04,TAL,CDA Volley Talmassons FVG,IMO,CLAI Imola Volley,5,2044,1532
+rs05_offanengo-brescia_brescia,"0    02/11/2025
+Name: day, dtype: object",Regular Season,05,BRE,Valsabbina Millenium Brescia,OFF,Trasporti Bressan Offanengo,5,1093,770
+rs05_talmassons-futura_brescia,"0    01/11/2025
+Name: day, dtype: object",Regular Season,05,TAL,CDA Volley Talmassons FVG,FUT,Futura Giovani Busto Arsizio,5,1246,922
+rs06_brescia-talmassons_brescia,"0    05/11/2025
+Name: day, dtype: object",Regular Season,06,BRE,Valsabbina Millenium Brescia,TAL,CDA Volley Talmassons FVG,5,1769,1355
+rs07_futura-brescia_brescia,"0    09/11/2025
+Name: day, dtype: object",Regular Season,07,BRE,Valsabbina Millenium Brescia,FUT,Futura Giovani Busto Arsizio,5,1878,1448
+rs07_padova-talmassons_brescia,"0    09/11/2025
+Name: day, dtype: object",Regular Season,07,FRA,Nuvolě Altafratte Padova,TAL,CDA Volley Talmassons FVG,5,1499,1108
+rs08_brescia-imola_brescia,"0    16/11/2025
+Name: day, dtype: object",Regular Season,08,BRE,Valsabbina Millenium Brescia,IMO,CLAI Imola Volley,5,2057,1545
+rs08_talmassons-fasano_brescia,"0    16/11/2025
+Name: day, dtype: object",Regular Season,08,TAL,CDA Volley Talmassons FVG,FAS,Olio Pantaleo Volley Fasano,5,1215,908
+rs09_padova-brescia_brescia,"0    23/11/2025
+Name: day, dtype: object",Regular Season,09,BRE,Valsabbina Millenium Brescia,FRA,NuvolÏ Altafratte Padova,5,1644,1211
+rs09_talmassons-altino_brescia,"0    23/11/2025
+Name: day, dtype: object",Regular Season,09,TAL,CDA Volley Talmassons FVG,ALT,Tenaglia Abruzzo Altino Volley,5,1111,805
+rs10_fasano-brescia_brescia,"0    30/11/2025
+Name: day, dtype: object",Regular Season,10,BRE,Valsabbina Millenium Brescia,FAS,Olio Pantaleo Volley Fasano,5,2055,1579
+rs10_modena-talmassons_brescia,"0    30/11/2025
+Name: day, dtype: object",Regular Season,10,MOE,Volley Modena,TAL,CDA Volley Talmassons FVG,5,1450,1043
+rs11_altamura-talmassons_brescia,"0    05/12/2025
+Name: day, dtype: object",Regular Season,11,LEN,Panbiscň Leonessa Altamura,TAL,CDA Volley Talmassons FVG,5,2165,1623
+rs11_brescia-modena_brescia,"0    06/12/2025
+Name: day, dtype: object",Regular Season,11,BRE,Valsabbina Millenium Brescia,MOE,Volley Modena,5,1025,750
+rs12_brescia-altino_brescia,"0    10/12/2025
+Name: day, dtype: object",Regular Season,12,BRE,Valsabbina Millenium Brescia,ALT,Tenaglia Abruzzo Altino Volley,5,1389,1069
+rs12_talmassons-offanengo_brescia,"0    10/12/2025
+Name: day, dtype: object",Regular Season,12,TAL,CDA Volley Talmassons FVG,OFF,Trasporti Bressan Offanengo,5,1643,1215
+rs13_altamura-brescia_brescia,"0    14/12/2025
+Name: day, dtype: object",Regular Season,13,BRE,Valsabbina Millenium Brescia,LEN,PanbiscÚ Leonessa Altamura,5,2125,1614
+rs13_imola-talmassons_brescia,"0    14/12/2025
+Name: day, dtype: object",Regular Season,13,IMO,CLAI Imola Volley,TAL,CDA Volley Talmassons FVG,5,1114,800
+rs14_brescia-offanengo_brescia,"0    21/12/2025
+Name: day, dtype: object",Regular Season,14,BRE,Valsabbina Millenium Brescia,OFF,Trasporti Bressan Offanengo,5,1300,991
+rs14_futura-talmassons_brescia,"0    21/12/2025
+Name: day, dtype: object",Regular Season,14,FUT,Futura Giovani Busto Arsizio,TAL,CDA Volley Talmassons FVG,5,1170,869
+rs15_talmassons-brescia_brescia,"0    27/12/2025
+Name: day, dtype: object",Regular Season,15,BRE,Valsabbina Millenium Brescia,TAL,CDA Volley Talmassons FVG,5,1559,1183
+rs16_brescia-futura_brescia,"0    04/01/2026
+Name: day, dtype: object",Regular Season,16,BRE,Valsabbina Millenium Brescia,FUT,Futura Giovani Busto Arsizio,5,1233,918
+rs16_talmassons-padova_brescia,"0    04/01/2026
+Name: day, dtype: object",Regular Season,16,TAL,CDA Volley Talmassons FVG,FRA,Nuvolě Altafratte Padova,5,1584,1177
+rs17_imola-brescia_brescia,"0    11/01/2026
+Name: day, dtype: object",Regular Season,17,BRE,Valsabbina Millenium Brescia,IMO,CLAI Imola Volley,5,1269,964
+rs18_brescia-padova_brescia,"0    18/01/2026
+Name: day, dtype: object",Regular Season,18,BRE,Valsabbina Millenium Brescia,FRA,Nuvolě Altafratte Padova,5,1184,883
