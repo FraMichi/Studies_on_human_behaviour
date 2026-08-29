@@ -5,6 +5,7 @@
 Course project — *Studies on Human Behaviour*, Data Science  
 Francesca Michieletto (ID 255371)
 
+---
 
 ## Overview
 
@@ -24,19 +25,31 @@ The analysis uses one full season of Data Volley scouting files from two Italian
 
 ## Main findings
 
-**RQ1 — no significant hot-hand effect.** Raw success rates are higher after a previous success (Brescia: 40.2% vs. 36.8%; Talmassons: 42.1% vs. 40.4%). However, after accounting for differences between players and matches, the effect is not statistically significant for either team (Brescia: β = +0.085, SE = 0.064; Talmassons: β = +0.031, SE = 0.071). The differences observed in the raw rates may therefore be partly explained by player heterogeneity rather than by a dependence on the previous attack.
+### RQ1 — No significant hot-hand effect
 
-**RQ2 — the interpretation changes after controlling for rotation.** A team rotates when it wins a rally while receiving, meaning that previous success and the attacking options available on the next action can be related through the rules of the game. Without controlling for rotation, Talmassons shows a significant negative pattern while Brescia shows no effect. After adding rotation, the Talmassons effect is no longer significant (β = −0.283*** → −0.142, n.s.), while a significant positive effect emerges for Brescia (β = +0.043, n.s. → +0.246***). The final result is therefore consistent with a hot-hand allocation pattern for Brescia, even though RQ1 provides no evidence of a corresponding performance effect.
+Raw success rates are higher after a previous success (Brescia: 40.2% vs. 36.8%; Talmassons: 42.1% vs. 40.4%). However, after accounting for differences between players and matches, the effect is not statistically significant for either team (Brescia: β = +0.085, SE = 0.064; Talmassons: β = +0.031, SE = 0.071).
 
-**RQ3 — no evidence of worse attacking performance under pressure.** Talmassons shows no significant change between normal and critical phases. Brescia shows fewer attack errors (β = −0.358**) and lower high-ball use (β = −0.190**) during critical phases. High-ball use should not simply be interpreted as a measure of tactical caution: among side-out attacks, the high-ball rate is 0.0% after a perfect reception and 59.8% after a poor reception. This shows a strong relationship between reception quality and high-ball use. The lower high-ball probability for Brescia is therefore consistent with the team reaching the attack in better conditions during critical phases, although this mechanism is not directly established by the current models.
+The differences observed in the raw rates may therefore be partly explained by player heterogeneity rather than by a dependence on the previous attack.
+
+### RQ2 — The interpretation changes after controlling for rotation
+
+A team rotates when it wins a rally while receiving, meaning that previous success and the attacking options available on the next action can be related through the rules of the game.
+
+Without controlling for rotation, Talmassons shows a significant negative pattern, while Brescia shows no significant effect. After adding rotation, the Talmassons effect is no longer significant (β = −0.283*** → −0.142, n.s.), while a significant positive effect emerges for Brescia (β = +0.043, n.s. → +0.246***).
+
+The final result is therefore consistent with a hot-hand allocation pattern for Brescia, even though RQ1 provides no evidence of a corresponding performance effect.
+
+### RQ3 — No evidence of worse attacking performance under pressure
+
+Talmassons shows no significant change between normal and critical phases. Brescia shows fewer attack errors (β = −0.358**) and lower high-ball use (β = −0.190**) during critical phases.
+
+High-ball use should not simply be interpreted as a measure of tactical caution: among side-out attacks, the high-ball rate is 0.0% after a perfect reception and 59.8% after a poor reception. This shows a strong relationship between reception quality and high-ball use. The lower high-ball probability for Brescia is therefore consistent with the team reaching the attack in better conditions during critical phases, although this mechanism is not directly established by the current models.
 
 ## Method
 
-Logistic mixed-effects models with **crossed random intercepts for player and match** were fitted separately for each team:
+Logistic mixed-effects models with crossed random intercepts for player and match were fitted separately for each team:
 
-```text
-logit P(outcome) = β₀ + β₁ · predictor + u_player + u_match
-```
+`logit P(outcome) = β₀ + β₁ · predictor + u_player + u_match`
 
 The two grouping factors are crossed rather than nested because the same player appears across multiple matches and each match contains several players. The random intercepts account for baseline differences between players and matches.
 
@@ -44,7 +57,7 @@ The models were estimated using an iterative weighted least-squares procedure im
 
 ## Repository contents
 
-```text
+~~~text
 ├── Hot_Hand_Volleyball_Analysis.ipynb   Full analysis pipeline (Colab)
 ├── Short_Research_Paper.pdf             Results-focused paper
 ├── Scientific_Essay.pdf                 Complete paper
@@ -52,10 +65,11 @@ The models were estimated using an iterative weighted least-squares procedure im
 ├── Project_Progress.pdf                 Deck 2 — project progress
 ├── Final_Presentation.pdf               Deck 3 — final results
 ├── dataset/
-│   ├── all/                             63 .dvw files 
+│   ├── all/                             63 .dvw files
 │   ├── brescia/                         36 .dvw files (Brescia)
-│   ├── talmassons/                      29 .dvw files (Talmassons) 
+│   ├── talmassons/                      29 .dvw files (Talmassons)
 └── README.md
+~~~
 
 The two head-to-head matches appear in both team folders. The analysis reads `all/`.
 
@@ -69,10 +83,9 @@ The files were provided by the technical staff of Valsabbina Millenium Brescia a
 
 ## Running the notebook
 
-pen `Hot_Hand_Volleyball_Analysis.ipynb` in Google Colab and run all cells in order.
+Open `Hot_Hand_Volleyball_Analysis.ipynb` in Google Colab and run all cells in order.
 
-Note on the setup:
-**Section 3 applies compatibility fixes.** The current Colab environment uses recent versions of NumPy and pandas that are not fully compatible with the public version of `pydatavolley`. The fixes are applied before parsing and do not change the library's parsing logic.
+**Note on the setup:** Section 3 applies compatibility fixes. The current Colab environment uses recent versions of NumPy and pandas that are not fully compatible with the public version of `pydatavolley`. The fixes are applied before parsing and do not change the library's parsing logic.
 
 ## Limitations
 
@@ -95,4 +108,5 @@ Note on the setup:
 
 ## Acknowledgements
 
+Thanks to the technical staff of Valsabbina Millenium Brescia for providing the scouting files and for explaining the coding conventions used during data collection.
 Thanks to the technical staff of Valsabbina Millenium Brescia for providing the scouting files and for explaining the coding conventions used during data collection.
