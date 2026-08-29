@@ -79,7 +79,7 @@ The dataset contains 63 Data Volley `.dvw` scouting files from the 2025/26 seaso
 
 The files cover the regular season, Coppa Italia, and promotion play-offs. Parsing produced 93,884 scouted actions, of which 8,312 are attacks performed by 23 players from the two focal teams.
 
-The files were provided by the technical staff of Valsabbina Millenium Brescia and are **not redistributed in this repository**. The notebook reads them from a Google Drive folder, with the path specified in Section 2.
+The files were provided by the technical staff of Valsabbina Millenium Brescia and are included in dataset/ so that the analysis can be reproduced.
 
 ## Running the notebook
 
