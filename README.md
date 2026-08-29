@@ -46,14 +46,18 @@ The models were estimated using an iterative weighted least-squares procedure im
 
 ```text
 ├── Hot_Hand_Volleyball_Analysis.ipynb   Full analysis pipeline (Colab)
-├── docs/
-│   ├── Short_Research_Paper.pdf         Results-focused paper
-│   ├── Scientific_Essay.pdf             Literature, method, results and discussion
-│   ├── Project_Definition.pdf           Deck 1 — project proposal
-│   ├── Project_Progress.pdf             Deck 2 — mid-project update
-│   └── Final_Presentation.pdf           Deck 3 — final results
+├── Short_Research_Paper.pdf             Results-focused paper
+├── Scientific_Essay.pdf                 Complete paper
+├── Project_Definition.pdf               Deck 1 — project proposal
+├── Project_Progress.pdf                 Deck 2 — project progress
+├── Final_Presentation.pdf               Deck 3 — final results
+├── dataset/
+│   ├── all/                             63 .dvw files 
+│   ├── brescia/                         36 .dvw files (Brescia)
+│   ├── talmassons/                      29 .dvw files (Talmassons) 
 └── README.md
-```
+
+The two head-to-head matches appear in both team folders. The analysis reads `all/`.
 
 ## Data
 
@@ -65,12 +69,10 @@ The files were provided by the technical staff of Valsabbina Millenium Brescia a
 
 ## Running the notebook
 
-Open `Hot_Hand_Volleyball_Analysis.ipynb` in Google Colab and run all cells in order.
+pen `Hot_Hand_Volleyball_Analysis.ipynb` in Google Colab and run all cells in order.
 
-Two notes on the setup:
-
-- **Section 3 applies compatibility fixes.** The current Colab environment uses recent versions of NumPy and pandas that are not fully compatible with the public version of `pydatavolley`. The fixes are applied before parsing and do not change the library's parsing logic.
-- If a `RecursionError` has already occurred in the session, restart the runtime (**Runtime → Restart session**) before running the notebook again.
+Note on the setup:
+**Section 3 applies compatibility fixes.** The current Colab environment uses recent versions of NumPy and pandas that are not fully compatible with the public version of `pydatavolley`. The fixes are applied before parsing and do not change the library's parsing logic.
 
 ## Limitations
 
@@ -88,7 +90,7 @@ Two notes on the setup:
 - Ittlinger, S., Lang, S., Schubert, A., & Raab, M. (2025). How cognitive biases affect winning probability perception in beach volleyball experts. *Scientific Reports*, 15, 32408.
 - Köppen, J., & Raab, M. (2012). The hot and cold hand in volleyball: Individual expertise differences in a video-based playmaker decision test. *The Sport Psychologist*, 26(2), 167–185.
 - MacMahon, C., Köppen, J., & Raab, M. (2014). The hot hand belief and framing effects. *Research Quarterly for Exercise and Sport*, 85(3), 341–350.
-- OpenVolley. [pydatavolley](https://github.com/openvolley/pydatavolley) · [datavolley](https://github.com/openvolley/datavolley) · [Data Volley file format manual](https://openvolley.r-universe.dev/datavolley/doc/manual.html)
+- OpenVolley. [pydatavolley](https://github.com/openvolley/pydatavolley) · [Data Volley file format manual](https://openvolley.r-universe.dev/datavolley/doc/manual.html)
 - Raab, M., Gula, B., & Gigerenzer, G. (2012). The hot hand exists in volleyball and is used for allocation decisions. *Journal of Experimental Psychology: Applied*, 18(1), 81–94.
 
 ## Acknowledgements
