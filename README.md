@@ -109,4 +109,3 @@ Open `Hot_Hand_Volleyball_Analysis.ipynb` in Google Colab and run all cells in o
 ## Acknowledgements
 
 Thanks to the technical staff of Valsabbina Millenium Brescia for providing the scouting files and for explaining the coding conventions used during data collection.
-Thanks to the technical staff of Valsabbina Millenium Brescia for providing the scouting files and for explaining the coding conventions used during data collection.
